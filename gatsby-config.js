@@ -18,16 +18,16 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
+      resolve: `javier/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {},
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Javier G. Salcedo Portfolio`,
+        short_name: `Javier G. Salcedo`,
+        description: `Small description about my experience and contact details`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website

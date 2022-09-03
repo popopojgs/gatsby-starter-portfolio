@@ -7,26 +7,26 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Javier G. Salcedo`,
-    siteTitleAlt: `Javier G. Salcedo Portfolio`,
-    siteHeadline: `Javier G. Salcedo Portfolio`,
-    siteUrl: `https://javiersalcedo.es`,
+    siteTitle: `@lekoarts G. Salcedo`,
+    siteTitleAlt: `@lekoarts G. Salcedo Portfolio`,
+    siteHeadline: `@lekoarts G. Salcedo Portfolio`,
+    siteUrl: `https://@lekoartssalcedo.es`,
     siteDescription: `Small description about my experience and contact details`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `Javier G. Salcedo`,
+    author: `@lekoarts G. Salcedo`,
   },
   plugins: [
     {
-      resolve: `javier/gatsby-theme-cara`,
+      resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {},
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Javier G. Salcedo Portfolio`,
-        short_name: `Javier G. Salcedo`,
+        name: `@lekoarts G. Salcedo Portfolio`,
+        short_name: `@lekoarts G. Salcedo`,
         description: `Small description about my experience and contact details`,
         start_url: `/`,
         background_color: `#141821`,
